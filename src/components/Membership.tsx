@@ -170,7 +170,7 @@ export function Membership() {
                     <DollarSign className="w-6 h-6 text-green-600" />
                     <h4 className="font-semibold text-gray-900">{fee.type}</h4>
                   </div>
-                  <p className="text-2xl font-bold text-red-600 mb-2">{fee.amount}</p>
+                  <p className="text-2xl font-bold text-green-800 mb-2">{fee.amount}</p>
                   <p className="text-gray-600 text-sm">{fee.description}</p>
                 </CardContent>
               </Card>

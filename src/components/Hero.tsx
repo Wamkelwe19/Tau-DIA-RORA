@@ -38,7 +38,7 @@ export function Hero() {
               <p className="text-sm font-medium">REKOPANA<br />Togetherness</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-red-600 rounded-full mx-auto mb-2 border-4 border-white shadow-lg"> </div>
+              <div className="w-16 h-16 bg-red-500 rounded-full mx-auto mb-2 border-4 border-white shadow-lg"> </div>
               <p className="text-sm font-medium">KGOTSO<br />Peace</p>
             </div>
           </div>
@@ -50,7 +50,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-3"
+              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3"
               onClick={() => document.getElementById('history')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Our Story
@@ -66,7 +66,7 @@ export function Hero() {
             <Button 
               size="lg" 
               variant="outline" 
-              className="bg-red-600 hover:bg-red-700 text-white px-8 py-3"
+              className="bg-red-500 hover:bg-red-600 text-white px-8 py-3"
               onClick={() => document.getElementById('membership')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Join Us
