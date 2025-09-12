@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src="src\components\HOME.jpg"
+          src="/HOME.jpg"
           alt="African community gathering"
           className="w-full h-full object-cover"
         />

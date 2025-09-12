@@ -107,7 +107,7 @@ export function DetailedHistory() {
               <div className="flex flex-col lg:flex-row">
                 <div className="lg:w-1/2 relative">
                   <ImageWithFallback
-                    src="src\components\History.jpg"
+                    src="/History.jpg"
                     alt="African community traditional gathering"
                     className="w-full h-96 lg:h-full object-cover"
                   />

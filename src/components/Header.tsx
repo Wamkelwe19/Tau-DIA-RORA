@@ -23,7 +23,7 @@ export function Header() {
           {/* Logo and Title */}
           <div className="flex items-center space-x-4">
             <img 
-      src="\src\components\TDR LOGO.png"
+      src="/TDR_LOGO.png"
       alt="Logo" 
       className="w-12 h-12 object-cover"
     />
