@@ -50,7 +50,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3"
+              className="bg-green-500 hover:bg-green-500 text-white px-8 py-3"
               onClick={() => document.getElementById('history')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Our Story
@@ -66,7 +66,7 @@ export function Hero() {
             <Button 
               size="lg" 
               variant="outline" 
-              className="bg-red-500 hover:bg-red-600 text-white px-8 py-3"
+              className="bg-red-500 hover:bg-red-500 text-white px-8 py-3"
               onClick={() => document.getElementById('membership')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Join Us
