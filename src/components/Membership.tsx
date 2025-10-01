@@ -105,9 +105,9 @@ export function Membership() {
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <step.icon className="w-8 h-8 text-red-600" />
+                    <step.icon className="w-8 h-8 text-green-600" />
                   </div>
-                  <div className="w-8 h-8 bg-red-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-sm font-bold">
+                  <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-sm font-bold">
                     {step.step}
                   </div>
                   <h4 className="font-semibold text-gray-900 mb-2">{step.title}</h4>

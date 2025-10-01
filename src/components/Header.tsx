@@ -25,7 +25,8 @@ export function Header() {
             <img 
       src="/TDR_LOGO.png"
       alt="Logo" 
-      className="w-12 h-12 object-cover"
+       style={{ width: "80px", height: "80px" }}
+      className="object-cover"
     />
             <div>
               <h1 className="text-xl font-bold text-gray-900">TAU DIA RORA</h1>
