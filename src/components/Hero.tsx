@@ -35,11 +35,11 @@ export function Hero() {
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white rounded-full mx-auto mb-2 border-4 border-gray-300 shadow-lg"> </div>
-              <p className="text-sm font-medium">REKOPANA<br />Togetherness</p>
+              <p className="text-sm font-medium">KGOTSO<br />Peace</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-red-500 rounded-full mx-auto mb-2 border-4 border-white shadow-lg"> </div>
-              <p className="text-sm font-medium">KGOTSO<br />Peace</p>
+              <p className="text-sm font-medium">KOPANO<br />Togetherness</p>
             </div>
           </div>
 
