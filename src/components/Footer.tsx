@@ -67,14 +67,16 @@ export function Footer() {
                     <div className="w-4 h-4 bg-green-500 rounded-full"></div>
                     <span className="text-sm text-gray-300">BOPHELO - Life & Unity</span>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-4 h-4 bg-red-600 rounded-full"></div>
-                    <span className="text-sm text-gray-300">REKOPANA - Togetherness</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
+
+                    <div className="flex items-center space-x-3">
                     <div className="w-4 h-4 bg-white rounded-full"></div>
                     <span className="text-sm text-gray-300">KGOTSO - Peace</span>
                   </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-4 h-4 bg-red-600 rounded-full"></div>
+                    <span className="text-sm text-gray-300">KOPANO - Togetherness</span>
+                  </div>
+                
                 </div>
               </div>
             </div>

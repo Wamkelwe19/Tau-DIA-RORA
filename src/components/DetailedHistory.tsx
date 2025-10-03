@@ -149,7 +149,7 @@ export function DetailedHistory() {
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-12">Formation Timeline</h3>
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-red-600 to-green-600"></div>
+           
             
             <div className="space-y-12">
               {timeline.map((event, index) => (
